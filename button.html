@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buttons - UIverse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>UIverse</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="button.html">Buttons</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <h1>Buttons</h1>
+
+    <div class="component-card">
+      <h3>Gradient Button</h3>
+
+      <button class="gradient-btn">Click Me</button>
+
+      <div class="actions">
+        <button onclick="toggleCode('btnCode')">View Code</button>
+        <button onclick="copyCode('btnCode')">Copy</button>
+      </div>
+
+      <pre id="btnCode" class="code-block">
+&lt;button class="gradient-btn"&gt;Click Me&lt;/button&gt;
+
+.gradient-btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background: linear-gradient(45deg, #ff6b6b, #6c5ce7);
+  border-radius: 6px;
+}
+      </pre>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
