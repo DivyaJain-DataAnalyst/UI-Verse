@@ -113,3 +113,42 @@ body {
     border-radius: 8px;
     font-size: 12px;
   }
+
+  
+  .sidebar a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    transition: 0.2s;
+  }
+  
+  .sidebar a:hover {
+    background: #1f1f1f;
+  }
+  
+  .sidebar .active a {
+    background: #333;
+  }
+
+  header h1 {
+    background: linear-gradient(45deg, #ff6b6b, #6c5ce7);
+    color: transparent;
+  }
+
+  .home-card {
+    transition: 0.3s;
+  }
+  
+  .home-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+
+  .explore-btn {
+    background: linear-gradient(45deg, #ff6b6b, #6c5ce7);
+    transition: 0.3s;
+  }
+  
+  .explore-btn:hover {
+    transform: scale(1.05);
+  }
